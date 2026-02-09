@@ -5,3 +5,6 @@ Logs
 Library
 .vs
 obj
+tic tac toe.sln
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj

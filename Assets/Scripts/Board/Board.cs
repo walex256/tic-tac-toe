@@ -19,7 +19,7 @@ public class Board : MonoBehaviour
 
         GameObject prefab = m_crossTurn ? m_crossPrefab : m_circlePrefab;
         Instantiate(prefab, position, Quaternion.identity);
-
+        Debug.Log("aaa");
         m_grid[x, y] = m_crossTurn ? CellState.Cross : CellState.Circle;
 
         if (CheckWin(m_grid[x, y]))
